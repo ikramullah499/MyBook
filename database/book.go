@@ -1,7 +1,8 @@
 package database
 
 import (
-	"github.com/ikramullah499/book_api/repository"
+	"MyBook/repository"
+
 	"gorm.io/gorm"
 )
 

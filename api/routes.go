@@ -1,8 +1,9 @@
 package api
 
 import (
+	"MyBook/repository"
+
 	"github.com/gofiber/fiber/v2"
-	"github.com/ikramullah499/book_api/repository"
 )
 
 type Handler struct {
