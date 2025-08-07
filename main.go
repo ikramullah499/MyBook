@@ -1,16 +1,15 @@
 package main
 
 import (
+	"MyBook/api"
+	"MyBook/database"
+	"MyBook/repository"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/joho/godotenv"
-
-	"github.com/ikramullah499/book_api/api"
-	"github.com/ikramullah499/book_api/database"
-	"github.com/ikramullah499/book_api/repository"
 )
 
 func main() {
